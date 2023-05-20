@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+/* Header styling */
+nav{    
+    display: flex;
+    align-items:center;
+    position: sticky;
+    gap: 30px;
+}
+
+nav div ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+nav ul li{
+    cursor: pointer;
+    list-style: none;
+    margin-right: 35px ;
+    font-weight: 500;    
+}
+nav ul li:hover{
+    color: #000080;
+    text-decoration: underline;
+}
+nav .btn{
+    position: sticky;
+    left: 90%;
+    
+    
+}
+.btn{
+    cursor: pointer;
+    color: white;
+    background-color: #000080;
+    padding: 7.5px 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    color: #000080;
+    border:1px solid #000080;
+    background-color: #fff;
+}
+
+/* Hero section styling */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+/* left main */
+
+
+.left-main h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin: 20px 10px;
+    
+}
+.left-main p{
+    margin: 20px 10px;
+    word-spacing: 5px;
+}
+
+.left-main div .btn{
+    margin: 20px 10px;
+}
+main div span{
+    color: #000080;
+    cursor: pointer;
+}
+
+/* Right main */
+
